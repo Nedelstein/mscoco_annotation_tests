@@ -61,10 +61,9 @@ function typeText(inputTxt) {
       if (i < inputTxt.length) {
         setTimeout(addLetter, 70);
       }
-    } else textDiv.innerHTML = "";
+    }
   })();
 }
-
 function clearText() {
   textDiv.innerHTML = "";
   console.log("working");
